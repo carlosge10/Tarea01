@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Sesion5</string>
+    <string name="activity_main_guardar">Guardar</string>
+    <string name="activity_main_limpiar">Limpiar</string>
+    <string name="activity_main_deporte">Practica Deporte</string>
+    <string-array name="activity_main_opciones">
+        <item>Bachillerato</item>
+        <item>Técnico</item>
+        <item>Licenciatura</item>
+        <item>Maestría</item>
+        <item>Doctorado</item>
+    </string-array>
+    <string name="activity_main_escolaridad">Escolaridad</string>
+    <string name="activity_main_h_nombre">Ingrese su Nombre</string>
+    <string name="activity_main_h_telefono">Ingrese su Telefono</string>
+    <string name="activity_main_genero">Genero</string>
+    <string name="activity_main_femenino">Femenino</string>
+    <string name="activity_main_masculino">Masculino</string>
+    <string name="activity_main_libro">Libro Favorito</string>
+</resources>
