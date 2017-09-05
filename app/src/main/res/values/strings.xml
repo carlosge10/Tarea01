@@ -10,6 +10,13 @@
         <item>Maestría</item>
         <item>Doctorado</item>
     </string-array>
+    <string-array name="activity_main_libros">
+        <item name="hairy potter">hairy potter</item>
+        <item name="narnia">narnia</item>
+        <item name="hamlet">hamlet</item>
+        <item name="othelo">othelo</item>
+        <item name="bible">bible</item>
+    </string-array>
     <string name="activity_main_escolaridad">Escolaridad</string>
     <string name="activity_main_h_nombre">Ingrese su Nombre</string>
     <string name="activity_main_h_telefono">Ingrese su Telefono</string>
