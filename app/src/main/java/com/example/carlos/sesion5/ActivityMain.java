@@ -18,6 +18,10 @@ import android.widget.RadioGroup;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
+
+
 public class ActivityMain extends AppCompatActivity {
 
     private Alumno a;
@@ -94,7 +98,30 @@ public class ActivityMain extends AppCompatActivity {
         savedInstanceState.putBoolean(DEPORTE_FIELD, a.isDeporte());
         super.onSaveInstanceState(savedInstanceState);
     }
+
+    public void open(final View view){
+        AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
+        alertDialogBuilder.setMessage("Desea limpiar el contenido?");
+                alertDialogBuilder.setPositiveButton("Si",
+                        new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface arg0, int arg1) {
+                                ActivityMain.this.limpiar(view);
+                            }
+                        });
+
+        alertDialogBuilder.setNegativeButton("No",new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+            }
+        });
+
+        AlertDialog alertDialog = alertDialogBuilder.create();
+        alertDialog.show();
+    }
+
     public void limpiar(View view){
+
         a = new Alumno();
         nombre.setText("");
         telefono.setText("");
