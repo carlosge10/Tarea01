@@ -99,14 +99,14 @@ public class ActivityMain extends AppCompatActivity {
         super.onSaveInstanceState(savedInstanceState);
     }
 
-    public void open(final View view){
+    public void limpiar(final View view){
         AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
         alertDialogBuilder.setMessage("Desea limpiar el contenido?");
                 alertDialogBuilder.setPositiveButton("Si",
                         new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface arg0, int arg1) {
-                                ActivityMain.this.limpiar(view);
+                                ActivityMain.this.limpiar();
                             }
                         });
 
@@ -120,7 +120,7 @@ public class ActivityMain extends AppCompatActivity {
         alertDialog.show();
     }
 
-    public void limpiar(View view){
+    public void limpiar(){
 
         a = new Alumno();
         nombre.setText("");

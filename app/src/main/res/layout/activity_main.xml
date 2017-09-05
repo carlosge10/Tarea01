@@ -111,5 +111,5 @@
         android:drawableLeft="@mipmap/ic_launcher"
         android:drawablePadding="20dp"
         android:text="@string/activity_main_limpiar"
-        android:onClick="open"/>
+        android:onClick="limpiar"/>
 </LinearLayout>
