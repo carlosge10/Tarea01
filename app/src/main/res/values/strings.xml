@@ -3,6 +3,7 @@
     <string name="activity_main_guardar">Guardar</string>
     <string name="activity_main_limpiar">Limpiar</string>
     <string name="activity_main_deporte">Practica Deporte</string>
+    <!--opcines de escolaridad-->
     <string-array name="activity_main_opciones">
         <item>Bachillerato</item>
         <item>Técnico</item>
@@ -10,6 +11,7 @@
         <item>Maestría</item>
         <item>Doctorado</item>
     </string-array>
+    <!--opcines de libros-->
     <string-array name="activity_main_libros">
         <item name="hairy potter">hairy potter</item>
         <item name="narnia">narnia</item>
@@ -17,6 +19,7 @@
         <item name="othelo">othelo</item>
         <item name="bible">bible</item>
     </string-array>
+
     <string name="activity_main_escolaridad">Escolaridad</string>
     <string name="activity_main_h_nombre">Ingrese su Nombre</string>
     <string name="activity_main_h_telefono">Ingrese su Telefono</string>
